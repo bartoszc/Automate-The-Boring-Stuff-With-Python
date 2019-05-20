@@ -1,0 +1,7 @@
+1537686772292	geckodriver	INFO	Listening on 127.0.0.1:45675
+error: unknown flag `v'
+1537688003876	geckodriver	INFO	Listening on 127.0.0.1:43979
+1537688004936	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537688007467	Marionette	INFO	Listening on port 40471
+1537688007662	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)

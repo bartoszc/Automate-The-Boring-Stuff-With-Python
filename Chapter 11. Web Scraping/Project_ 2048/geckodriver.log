@@ -1,0 +1,55 @@
+1537771114909	geckodriver	INFO	Listening on 127.0.0.1:47631
+1537771115965	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537771118291	Marionette	INFO	Listening on port 44819
+1537771118465	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537771146602	geckodriver	INFO	Listening on 127.0.0.1:49383
+1537771147654	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537771149935	Marionette	INFO	Listening on port 36629
+1537771150016	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537771214959	geckodriver	INFO	Listening on 127.0.0.1:48943
+1537771216015	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537771218419	Marionette	INFO	Listening on port 43419
+1537771218500	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537771358971	geckodriver	INFO	Listening on 127.0.0.1:49931
+1537771359030	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537771361429	Marionette	INFO	Listening on port 38649
+1537771361472	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537771428030	geckodriver	INFO	Listening on 127.0.0.1:55347
+1537771429080	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537771431428	Marionette	INFO	Listening on port 45755
+1537771431506	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537771609298	geckodriver	INFO	Listening on 127.0.0.1:55687
+1537771610359	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537771612751	Marionette	INFO	Listening on port 40103
+1537771612826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537771706191	geckodriver	INFO	Listening on 127.0.0.1:34189
+1537771707245	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537771709536	Marionette	INFO	Listening on port 46727
+1537771709615	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10116] WARNING: pipe error (3): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1537771761582	geckodriver	INFO	Listening on 127.0.0.1:40311
+1537771762636	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537771765988	Marionette	INFO	Listening on port 38605
+1537771766117	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537771805758	geckodriver	INFO	Listening on 127.0.0.1:54815
+1537771806815	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537771809105	Marionette	INFO	Listening on port 35077
+1537771809189	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A0001,name=PCrashReporter::Msg_AnnotateCrashReport) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=18.0843) 
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400C6,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1537772014592	geckodriver	INFO	Listening on 127.0.0.1:41479
+1537772015643	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537772018189	Marionette	INFO	Listening on port 36313
+1537772018310	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537772033847	Marionette	INFO	New connections will no longer be accepted
+[Child 11714] WARNING: pipe error (17): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+[Child 11714] WARNING: pipe error (3): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1537772046913	geckodriver	INFO	Listening on 127.0.0.1:47027
+1537772048018	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537772051967	Marionette	INFO	Listening on port 36417
+1537772052163	Marionette	WARN	TLS certificate errors will be ignored for this session

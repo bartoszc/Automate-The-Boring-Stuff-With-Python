@@ -1,0 +1,34 @@
+1537769424902	geckodriver	INFO	Listening on 127.0.0.1:43113
+1537769425958	geckodriver::marionette	INFO	Starting browser /opt/firefox/firefox with args ["-marionette"]
+1537769428236	Marionette	INFO	Listening on port 36265
+1537769428324	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js :: _docShellsToWindows/< :: line 723"  data: no]
+Stack: _docShellsToWindows/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:723:11
+_docShellsToWindows@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:720:12
+_notifyDocShellsUpdate@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:751:19
+DebuggerProgressListener.prototype.onStateChange<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:1637:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 723, column: 0
+console.error: 
+  Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js :: _docShellsToWindows/< :: line 723"  data: no]
+Stack: _docShellsToWindows/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:723:11
+_docShellsToWindows@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:720:12
+_notifyDocShellsUpdate@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:751:19
+DebuggerProgressListener.prototype.onStateChange<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:1637:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 723, column: 0
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1640"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:1640:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1640, column: 0
+console.error: 
+  Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1640"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:1640:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1640, column: 0
